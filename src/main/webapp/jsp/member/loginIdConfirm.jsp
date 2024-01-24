@@ -43,8 +43,7 @@
 
 	<script>
 		function loginId(){
-			window.opener.document.getElementById('loginId').value='<%=loginId%>
-		';
+			window.opener.document.getElementById('loginId').value='<%=loginId%>';
 			window.close();
 		}
 	</script>
